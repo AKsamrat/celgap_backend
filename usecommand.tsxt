@@ -1,0 +1,6 @@
+====== make dummy date
+php artisan make:factory ConferenceFactory --model=Conference
+
+
+====== make controller,resource,migrate,model
+php artisan make:model Conference -mcr --api
